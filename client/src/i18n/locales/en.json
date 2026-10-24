@@ -1,0 +1,167 @@
+{
+  "app": { "name": "EduAI", "tagline": "Learn with AI" },
+  "nav": {
+    "home": "Home",
+    "subjects": "Subjects",
+    "aiTutor": "AI Tutor",
+    "dashboard": "Dashboard",
+    "admin": "Admin",
+    "login": "Log in",
+    "register": "Sign up",
+    "logout": "Log out",
+    "profile": "Profile"
+  },
+  "common": {
+    "loading": "Loading...",
+    "retry": "Retry",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "create": "Add",
+    "back": "Back",
+    "next": "Next",
+    "submit": "Submit",
+    "close": "Close",
+    "search": "Search",
+    "level": "Level",
+    "levels": { "beginner": "Beginner", "intermediate": "Intermediate", "advanced": "Advanced" },
+    "empty": "No data yet",
+    "required": "This field is required"
+  },
+  "home": {
+    "heroTitle": "Learn any subject easily with an AI Tutor",
+    "heroSubtitle": "Lessons, quizzes, and a personal AI assistant in Uzbek, Russian, and English — all free.",
+    "ctaStart": "Start learning with the AI Tutor",
+    "ctaSubjects": "Browse subjects",
+    "featuresTitle": "Platform features",
+    "features": {
+      "ai": { "title": "AI Tutor", "desc": "Get a simple, step-by-step answer to your question." },
+      "multilang": { "title": "Three languages", "desc": "Learn in Uzbek, Russian, and English." },
+      "quizzes": { "title": "Quizzes", "desc": "Test your knowledge and track your results." },
+      "progress": { "title": "Progress", "desc": "See your completed lessons and statistics." }
+    },
+    "stepsTitle": "Learning steps",
+    "steps": {
+      "one": { "title": "Choose a subject", "desc": "Start with a subject that interests you." },
+      "two": { "title": "Study the lesson", "desc": "Go through explanations and examples." },
+      "three": { "title": "Take the quiz", "desc": "Reinforce what you've learned." },
+      "four": { "title": "Ask the AI", "desc": "Ask the AI Tutor about anything unclear." }
+    },
+    "subjectsTitle": "Subjects"
+  },
+  "subjects": {
+    "title": "Subjects",
+    "subtitle": "Choose a subject to learn",
+    "lessons": "Lessons",
+    "lessonsCount": "{{count}} lessons",
+    "viewLessons": "View lessons",
+    "noLessons": "No lessons in this subject yet"
+  },
+  "lessons": {
+    "title": "Lessons",
+    "content": "Topic",
+    "examples": "Examples",
+    "keyPoints": "Key points",
+    "startQuiz": "Start quiz",
+    "markComplete": "Mark as completed",
+    "completed": "Completed",
+    "noQuiz": "No quiz for this lesson"
+  },
+  "quiz": {
+    "title": "Quiz",
+    "question": "Question",
+    "questionOf": "Question {{current}} / {{total}}",
+    "finish": "Finish quiz",
+    "result": "Result",
+    "score": "Score",
+    "yourScore": "Your score",
+    "correct": "Correct",
+    "incorrect": "Incorrect",
+    "yourAnswer": "Your answer",
+    "correctAnswer": "Correct answer",
+    "explanation": "Explanation",
+    "retry": "Try again",
+    "selectAnswer": "Please select an answer",
+    "backToLesson": "Back to lesson",
+    "loginRequired": "Log in to take the quiz"
+  },
+  "ai": {
+    "title": "AI Tutor",
+    "subtitle": "Ask a question about any topic",
+    "placeholder": "Type your question... (e.g. How do you add fractions?)",
+    "send": "Send",
+    "thinking": "AI is thinking...",
+    "explainAgain": "Explain differently",
+    "giveExample": "Give an example",
+    "disabled": "The AI feature is currently off. An administrator must configure the API key.",
+    "disclaimer": "AI answers can be wrong — verify important information.",
+    "usage": "Today: {{used}} / {{limit}} requests",
+    "limitReached": "Daily request limit reached. Try again tomorrow.",
+    "emptyState": "Ask a question — the AI Tutor will explain the topic.",
+    "loginRequired": "Log in to use the AI Tutor"
+  },
+  "auth": {
+    "loginTitle": "Log in",
+    "registerTitle": "Sign up",
+    "name": "Name",
+    "email": "Email",
+    "password": "Password",
+    "preferredLanguage": "Preferred language",
+    "loginBtn": "Log in",
+    "registerBtn": "Sign up",
+    "noAccount": "Don't have an account?",
+    "haveAccount": "Already have an account?",
+    "registerLink": "Sign up",
+    "loginLink": "Log in",
+    "welcome": "Welcome, {{name}}!"
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "welcome": "Hi, {{name}}",
+    "completedLessons": "Completed lessons",
+    "quizzesTaken": "Quizzes taken",
+    "averageScore": "Average score",
+    "recentActivity": "Recent activity",
+    "noActivity": "No activity yet. Start your first lesson!",
+    "quizOn": "Quiz",
+    "progressTitle": "Learning progress"
+  },
+  "profile": {
+    "title": "Profile",
+    "name": "Name",
+    "email": "Email",
+    "language": "Interface language",
+    "role": "Role",
+    "saveChanges": "Save changes",
+    "saved": "Saved!",
+    "memberSince": "Member since"
+  },
+  "admin": {
+    "title": "Admin panel",
+    "tabs": { "stats": "Statistics", "subjects": "Subjects", "lessons": "Lessons", "users": "Users" },
+    "stats": { "users": "Users", "subjects": "Subjects", "lessons": "Lessons", "quizzes": "Quizzes", "attempts": "Quiz attempts" },
+    "addSubject": "Add subject",
+    "addLesson": "Add lesson",
+    "slug": "Slug (latin, lowercase)",
+    "icon": "Icon",
+    "color": "Color",
+    "makeAdmin": "Make admin",
+    "removeAdmin": "Remove admin",
+    "confirmDelete": "Really delete?",
+    "role": "Role"
+  },
+  "errors": {
+    "generic": "An error occurred. Please try again.",
+    "network": "Could not connect to the server. Check your internet.",
+    "notFound": "Not found",
+    "unauthorized": "Please log in first",
+    "forbidden": "You don't have access to this page",
+    "pageNotFound": "Page not found"
+  },
+  "footer": {
+    "about": "EduAI — a free, trilingual AI education platform for everyone.",
+    "links": "Links",
+    "rights": "All rights reserved."
+  }
+}

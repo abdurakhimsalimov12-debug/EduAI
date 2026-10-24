@@ -1,0 +1,167 @@
+{
+  "app": { "name": "EduAI", "tagline": "AI yordamida o'rganing" },
+  "nav": {
+    "home": "Bosh sahifa",
+    "subjects": "Fanlar",
+    "aiTutor": "AI Ustoz",
+    "dashboard": "Boshqaruv paneli",
+    "admin": "Admin",
+    "login": "Kirish",
+    "register": "Ro'yxatdan o'tish",
+    "logout": "Chiqish",
+    "profile": "Profil"
+  },
+  "common": {
+    "loading": "Yuklanmoqda...",
+    "retry": "Qayta urinish",
+    "save": "Saqlash",
+    "cancel": "Bekor qilish",
+    "delete": "O'chirish",
+    "edit": "Tahrirlash",
+    "create": "Qo'shish",
+    "back": "Orqaga",
+    "next": "Keyingi",
+    "submit": "Yuborish",
+    "close": "Yopish",
+    "search": "Qidirish",
+    "level": "Daraja",
+    "levels": { "beginner": "Boshlang'ich", "intermediate": "O'rta", "advanced": "Yuqori" },
+    "empty": "Hozircha ma'lumot yo'q",
+    "required": "To'ldirilishi shart"
+  },
+  "home": {
+    "heroTitle": "Har bir fanni AI Ustoz bilan oson o'rganing",
+    "heroSubtitle": "O'zbek, rus va ingliz tillarida darslar, testlar va shaxsiy AI yordamchi — hammasi bepul.",
+    "ctaStart": "AI Ustoz bilan o'rganishni boshlash",
+    "ctaSubjects": "Fanlarni ko'rish",
+    "featuresTitle": "Platforma imkoniyatlari",
+    "features": {
+      "ai": { "title": "AI Ustoz", "desc": "Savolingizga sodda, bosqichma-bosqich javob oling." },
+      "multilang": { "title": "Uch tilli", "desc": "O'zbek, rus va ingliz tillarida o'rganing." },
+      "quizzes": { "title": "Testlar", "desc": "Bilimingizni sinab, natijangizni kuzating." },
+      "progress": { "title": "Rivojlanish", "desc": "O'rganilgan darslar va statistikangizni ko'ring." }
+    },
+    "stepsTitle": "O'rganish bosqichlari",
+    "steps": {
+      "one": { "title": "Fanni tanlang", "desc": "Sizni qiziqtirgan fandan boshlang." },
+      "two": { "title": "Darsni o'rganing", "desc": "Tushuntirish va misollar bilan tanishing." },
+      "three": { "title": "Testni yeching", "desc": "Bilimingizni mustahkamlang." },
+      "four": { "title": "AI'dan so'rang", "desc": "Tushunmagan joyni AI Ustozdan so'rang." }
+    },
+    "subjectsTitle": "Fanlar"
+  },
+  "subjects": {
+    "title": "Fanlar",
+    "subtitle": "O'rganmoqchi bo'lgan fanni tanlang",
+    "lessons": "Darslar",
+    "lessonsCount": "{{count}} ta dars",
+    "viewLessons": "Darslarni ko'rish",
+    "noLessons": "Bu fanda hozircha dars yo'q"
+  },
+  "lessons": {
+    "title": "Darslar",
+    "content": "Mavzu",
+    "examples": "Misollar",
+    "keyPoints": "Muhim qoidalar",
+    "startQuiz": "Testni boshlash",
+    "markComplete": "O'rganildi deb belgilash",
+    "completed": "O'rganildi",
+    "noQuiz": "Bu darsda test yo'q"
+  },
+  "quiz": {
+    "title": "Test",
+    "question": "Savol",
+    "questionOf": "{{current}} / {{total}} savol",
+    "finish": "Testni yakunlash",
+    "result": "Natija",
+    "score": "Ball",
+    "yourScore": "Sizning natijangiz",
+    "correct": "To'g'ri",
+    "incorrect": "Noto'g'ri",
+    "yourAnswer": "Sizning javobingiz",
+    "correctAnswer": "To'g'ri javob",
+    "explanation": "Izoh",
+    "retry": "Qayta ishlash",
+    "selectAnswer": "Iltimos, javobni tanlang",
+    "backToLesson": "Darsga qaytish",
+    "loginRequired": "Testni topshirish uchun tizimga kiring"
+  },
+  "ai": {
+    "title": "AI Ustoz",
+    "subtitle": "Istalgan mavzu bo'yicha savol bering",
+    "placeholder": "Savolingizni yozing... (masalan: Kasrlarni qanday qo'shiladi?)",
+    "send": "Yuborish",
+    "thinking": "AI o'ylamoqda...",
+    "explainAgain": "Boshqacha tushuntir",
+    "giveExample": "Misol keltir",
+    "disabled": "AI funksiyasi hozircha o'chiq. Administrator API kalitini sozlashi kerak.",
+    "disclaimer": "AI javoblari xato bo'lishi mumkin — muhim ma'lumotni tekshiring.",
+    "usage": "Bugun: {{used}} / {{limit}} so'rov",
+    "limitReached": "Kunlik so'rov limiti tugadi. Ertaga urinib ko'ring.",
+    "emptyState": "Savol bering — AI Ustoz mavzuni tushuntirib beradi.",
+    "loginRequired": "AI Ustozdan foydalanish uchun tizimga kiring"
+  },
+  "auth": {
+    "loginTitle": "Tizimga kirish",
+    "registerTitle": "Ro'yxatdan o'tish",
+    "name": "Ism",
+    "email": "Email",
+    "password": "Parol",
+    "preferredLanguage": "Afzal til",
+    "loginBtn": "Kirish",
+    "registerBtn": "Ro'yxatdan o'tish",
+    "noAccount": "Hisobingiz yo'qmi?",
+    "haveAccount": "Hisobingiz bormi?",
+    "registerLink": "Ro'yxatdan o'ting",
+    "loginLink": "Kiring",
+    "welcome": "Xush kelibsiz, {{name}}!"
+  },
+  "dashboard": {
+    "title": "Boshqaruv paneli",
+    "welcome": "Salom, {{name}}",
+    "completedLessons": "O'rganilgan darslar",
+    "quizzesTaken": "Ishlangan testlar",
+    "averageScore": "O'rtacha natija",
+    "recentActivity": "Oxirgi faoliyat",
+    "noActivity": "Hali faoliyat yo'q. Birinchi darsni boshlang!",
+    "quizOn": "Test",
+    "progressTitle": "O'quv jarayoni"
+  },
+  "profile": {
+    "title": "Profil",
+    "name": "Ism",
+    "email": "Email",
+    "language": "Interfeys tili",
+    "role": "Rol",
+    "saveChanges": "O'zgarishlarni saqlash",
+    "saved": "Saqlandi!",
+    "memberSince": "A'zo bo'lgan sana"
+  },
+  "admin": {
+    "title": "Admin panel",
+    "tabs": { "stats": "Statistika", "subjects": "Fanlar", "lessons": "Darslar", "users": "Foydalanuvchilar" },
+    "stats": { "users": "Foydalanuvchilar", "subjects": "Fanlar", "lessons": "Darslar", "quizzes": "Testlar", "attempts": "Test urinishlari" },
+    "addSubject": "Fan qo'shish",
+    "addLesson": "Dars qo'shish",
+    "slug": "Slug (lotin, kichik harf)",
+    "icon": "Ikonka",
+    "color": "Rang",
+    "makeAdmin": "Admin qilish",
+    "removeAdmin": "Adminni olib tashlash",
+    "confirmDelete": "Rostdan o'chirilsinmi?",
+    "role": "Rol"
+  },
+  "errors": {
+    "generic": "Xatolik yuz berdi. Qayta urinib ko'ring.",
+    "network": "Serverga ulanib bo'lmadi. Internetni tekshiring.",
+    "notFound": "Topilmadi",
+    "unauthorized": "Avval tizimga kiring",
+    "forbidden": "Bu sahifaga ruxsatingiz yo'q",
+    "pageNotFound": "Sahifa topilmadi"
+  },
+  "footer": {
+    "about": "EduAI — barcha uchun bepul, uch tilli AI ta'lim platformasi.",
+    "links": "Havolalar",
+    "rights": "Barcha huquqlar himoyalangan."
+  }
+}

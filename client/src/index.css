@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+/* daisyUI v5 — Tailwind v4 bilan mos CSS-asosidagi konfiguratsiya.
+   light standart, dark keyingi bosqich uchun tayyor turadi. */
+@plugin "daisyui" {
+  themes: light --default, dark --prefersdark;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* daisyUI 5'da olib tashlangan forma utilitalari uchun yengil moslik
+   (markup o'zgarmasin). Inputlar v5'da standart holda chegarali. */
+.form-control {
+  display: flex;
+  flex-direction: column;
+}
+.label-text {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  color: color-mix(in oklab, var(--color-base-content) 75%, transparent);
+}
